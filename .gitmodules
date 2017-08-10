@@ -1,0 +1,3 @@
+[submodule "goldsrs"]
+	path = goldsrs
+	url = git@github.com:Vurich/goldsrs.git
