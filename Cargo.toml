@@ -1,0 +1,15 @@
+[package]
+name = "goldsrs-testbed"
+version = "0.1.0"
+authors = ["Vurich <jackefransham@hotmail.co.uk>"]
+
+[dependencies]
+cgmath = "*"
+goldsrs = { path = "./goldsrs" }
+gfx = { path = "../gfx/src/render" }
+gfx_device_gl = { path = "../gfx/src/backend/gl" }
+gfx_window_glutin = { path = "../gfx/src/window/glutin" }
+winit = "0.7"
+glutin = "0.9.2"
+memmap = "*"
+rand = "*"
